@@ -9,9 +9,11 @@ The goal of this project is to create an ETL-Query pipeline utilizing a cloud se
 1. open codespaces 
 2. wait for container to be built and virtual environment to be activated with requirements.txt installed 
 3. make your own .env file to store your Databricks' secrets as it requires a conncection to be established to Databricks
-3. extract: run `make extract`
-4. transform and load: run `make transform_load`
-4. query: run `make query` or  `etl_query general_query "<insert query>"`
+4. extract: run `make extract`
+5. transform and load: run `make transform_load`
+6. query: run `make query` or  `etl_query general_query "<insert query>"`
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/2429681e-2984-4a61-b0a8-aaca97a9081b">
+
 
 ## Complex Query
 Explanations of query above like'<insert query>':
@@ -41,6 +43,8 @@ AVG(t1.Followers) AS avg_followers: Calculates the average number of followers f
 1. Format code `make format`
 2. Lint code `make lint`
 3. Test coce `make test`
+<img width="793" alt="image" src="https://github.com/user-attachments/assets/d31ded63-a84f-4138-a298-d23bb0ded9ac">
+
 
 ### File Structure
 ```
