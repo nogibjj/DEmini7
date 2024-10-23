@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ETLpipelineSamantha.egg-info/PKG-INFO
+ETLpipelineSamantha.egg-info/SOURCES.txt
+ETLpipelineSamantha.egg-info/dependency_links.txt
+ETLpipelineSamantha.egg-info/entry_points.txt
+ETLpipelineSamantha.egg-info/requires.txt
+ETLpipelineSamantha.egg-info/top_level.txt
+mylib/__init__.py
+mylib/extract.py
+mylib/query.py
+mylib/transform_load.py
