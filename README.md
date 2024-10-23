@@ -33,7 +33,8 @@ AVG(t1.Followers) AS avg_followers: Calculates the average number of followers f
 - Groups the data by country and category to calculate aggregate values (like AVG and COUNT).
 - Sorts the results in descending order by the average number of followers.
 - Limits the output to the top 10 results with the highest average followers.
-   <img width="1176" alt="image" src="https://github.com/user-attachments/assets/9737d736-aaa0-4b8e-a4d0-ab55c6ec47e8">
+   <img width="1170" alt="image" src="https://github.com/user-attachments/assets/3507be22-338f-4585-8e93-0c8baf56a80b">
+
 
 
 ## Check format and test errors 
@@ -66,6 +67,7 @@ DEmini6/
 ├── README.md
 ├── requirements.txt
 ├── setup.sh
+├── setup.py
 └── test_main.py
 ```
 ## References 
