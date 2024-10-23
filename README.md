@@ -1,4 +1,5 @@
 
+[![CI](https://github.com/nogibjj/DEmini7/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/DEmini7/actions/workflows/cicd.yml)
 
 ## IDS706_Week7
 
@@ -10,10 +11,10 @@ The goal of this project is to create an ETL-Query pipeline utilizing a cloud se
 3. make your own .env file to store your Databricks' secrets as it requires a conncection to be established to Databricks
 3. extract: run `make extract`
 4. transform and load: run `make transform_load`
-4. query: run `make query` or alternatively write your own query using `python main.py general_query <insert query>`
+4. query: run `make query` or  `etl_query general_query "<insert query>"`
 
 ## Complex Query
-Explanations of query:
+Explanations of query above like'<insert query>':
 ```sql
     SELECT t1.country, t1.category, t1.category,
                 AVG(t1.Followers) as avg_followers,
